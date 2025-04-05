@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vintage Store - Login</title>
+    <style>
+        :root {
+            --color-primary: #FF5722;
+            --color-primary-dark: #E64A19;
+            --color-accent: #FF9800;
+            --color-primary-light: #FFCCBC;
+            --color-white: #FFFFFF;
+            --color-black: #000000;
+            --color-text-primary: #212121;
+            --color-text-secondary: #757575;
+            --color-divider: #BDBDBD;
+            --color-background: #F5F5F5;
+        }
+        
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', Arial, sans-serif;
+        }
+        
+        body {
+            background-color: var(--color-background);
+            color: var(--color-text-primary);
+        }
+        
+        .login-container {
+            max-width: 430px;
+            margin: 0 auto;
+            background-color: var(--color-white);
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 24px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 48px;
+            color: var(--color-primary);
+        }
+        
+        .login-form {
+            width: 100%;
+            max-width: 320px;
+        }
+        
+        .form-group {
+            margin-bottom: 24px;
+        }
+        
+        .form-label {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 14px;
+            color: var(--color-text-secondary);
+        }
+        
+        .form-input {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid var(--color-divider);
+            border-radius: 4px;
+            font-size: 16px;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+        
+        .form-input:focus {
+            border-color: var(--color-primary);
+        }
+        
+        .login-button {
+            width: 100%;
+            padding: 14px;
+            background-color: var(--color-primary);
+            color: var(--color-white);
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        
+        .login-button:hover {
+            background-color: var(--color-primary-dark);
+        }
+        
+        .divider {
+            display: flex;
+            align-items: center;
+            margin: 24px 0;
+            color: var(--color-text-secondary);
+            font-size: 14px;
+        }
+        
+        .divider::before,
+        .divider::after {
+            content: "";
+            flex: 1;
+            height: 1px;
+            background-color: var(--color-divider);
+        }
+        
+        .divider::before {
+            margin-right: 16px;
+        }
+        
+        .divider::after {
+            margin-left: 16px;
+        }
+        
+        .register-link {
+            margin-top: 16px;
+            text-align: center;
+            font-size: 14px;
+            color: var(--color-text-secondary);
+        }
+        
+        .register-link a {
+            color: var(--color-primary);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .register-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <div class="logo">Vintage Store</div>
+        
+        <form class="login-form">
+            <div class="form-group">
+                <label class="form-label" for="email">Email</label>
+                <input class="form-input" type="email" id="email" placeholder="Enter your email" required>
+            </div>
+            
+            <div class="form-group">
+                <label class="form-label" for="password">Password</label>
+                <input class="form-input" type="password" id="password" placeholder="Enter your password" required>
+            </div>
+            
+            <button class="login-button" type="button" onclick="window.location.href='index.html'">Login</button>
+            
+            <div class="divider">or</div>
+            
+            <button class="login-button" type="button" style="background-color: var(--color-accent);">Continue with Google</button>
+            
+            <div class="register-link">
+                Don't have an account? <a href="#">Register</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

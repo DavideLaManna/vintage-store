@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Vintage Store</string>
+    
+    <!-- Navigation -->
+    <string name="title_home">Home</string>
+    <string name="title_search">Search</string>
+    <string name="title_add">Sell</string>
+    <string name="title_favorites">Favorites</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_messages">Messages</string>
+    
+    <!-- Login & Registration -->
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="new_user">New user? Register here</string>
+    <string name="existing_user">Already have an account? Login</string>
+    
+    <!-- Items -->
+    <string name="item_details">Item Details</string>
+    <string name="add_item">Add Item</string>
+    <string name="item_title">Title</string>
+    <string name="item_description">Description</string>
+    <string name="item_price">Price</string>
+    <string name="item_category">Category</string>
+    <string name="item_condition">Condition</string>
+    <string name="item_size">Size</string>
+    <string name="item_brand">Brand</string>
+    <string name="item_location">Location</string>
+    <string name="upload_photos">Upload Photos</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="gallery">Gallery</string>
+    <string name="save">Save</string>
+    <string name="publish">Publish</string>
+    
+    <!-- Messaging -->
+    <string name="send">Send</string>
+    <string name="message_hint">Type a message</string>
+    <string name="no_messages">No messages yet</string>
+    
+    <!-- Profile -->
+    <string name="edit_profile">Edit Profile</string>
+    <string name="my_items">My Items</string>
+    <string name="settings">Settings</string>
+    <string name="logout">Logout</string>
+    <string name="about">About</string>
+    <string name="user_bio">Bio</string>
+    <string name="change_photo">Change Photo</string>
+    
+    <!-- Purchase -->
+    <string name="buy_now">Buy Now</string>
+    <string name="add_to_favorites">Add to Favorites</string>
+    <string name="message_seller">Message Seller</string>
+    <string name="checkout">Checkout</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="shipping_address">Shipping Address</string>
+    <string name="order_summary">Order Summary</string>
+    <string name="complete_purchase">Complete Purchase</string>
+    
+    <!-- Misc -->
+    <string name="retry">Retry</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="search_hint">Search items…</string>
+    <string name="loading">Loading…</string>
+    <string name="error_occurred">An error occurred</string>
+    <string name="no_internet">No internet connection</string>
+</resources>
